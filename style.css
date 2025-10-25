@@ -1,94 +1,132 @@
+/* Background and Text */
 body {
-    background-color: #e6f9ff;
+    background-color: #c7f3f3;
     font-family: Arial, sans-serif;
     text-align: center;
-    color: #003366;
     margin: 0;
     padding: 0;
 }
 
-/* Header */
-header {
+/* Header and Footer */
+header, footer {
     background-color: #009999;
     color: white;
-    padding: 20px;
+    padding: 15px;
 }
 
-h1, h2, h3 {
-    margin: 10px 0;
+/* Logo (bilog, maliit lang) */
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-/* Navigation */
-nav {
-    background-color: #006666;
-    padding: 10px;
-}
-
+/* Navigation links */
 nav a {
-    color: white;
+    color: #003366;
     text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
+    margin: 0 8px;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: blue;
 }
 
-/* Section */
-section {
-    padding: 20px;
+/* Headings */
+h1, h2, h3, h4 {
+    color: #003366;
 }
 
-/* Table */
+/* Paragraphs */
+p {
+    color: #000;
+    font-size: 14px;
+}
+
+/* Main Banner Image */
+.main-img {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Gallery (3 small pictures) */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.gallery img {
+    width: 30%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* Table Design */
 table {
     margin: 20px auto;
     border-collapse: collapse;
-    width: 80%;
-    background-color: white;
+    width: 70%;
+    background-color: #e0ffff;
 }
 
 table, th, td {
-    border: 1px solid #009999;
-    padding: 10px;
+    border: 1px solid black;
 }
 
 th {
-    background-color: #b3ffff;
+    background-color: #00cccc;
 }
 
-/* Form */
+th, td {
+    padding: 10px;
+}
+
+/* Form Design */
 form {
-    background-color: #ccffff;
-    padding: 20px;
-    width: 50%;
     margin: 20px auto;
+    background-color: #e0ffff;
+    display: inline-block;
+    padding: 15px;
     border-radius: 10px;
     text-align: left;
+    width: 300px;
 }
 
-input, select, textarea {
+label {
+    display: block;
+    margin-top: 8px;
+}
+
+input, textarea, select {
     width: 100%;
-    padding: 8px;
-    margin-top: 5px;
+    padding: 5px;
+    margin-top: 3px;
 }
 
 input[type="submit"] {
     background-color: #009999;
     color: white;
     border: none;
-    cursor: pointer;
+    padding: 8px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #006666;
+    background-color: #007777;
 }
-
-/* Footer */
-footer {
-    background-color: #009999;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
 }
