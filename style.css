@@ -1,0 +1,94 @@
+body {
+    background-color: #e6f9ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #003366;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #009999;
+    color: white;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #006666;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section */
+section {
+    padding: 20px;
+}
+
+/* Table */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid #009999;
+    padding: 10px;
+}
+
+th {
+    background-color: #b3ffff;
+}
+
+/* Form */
+form {
+    background-color: #ccffff;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: left;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #009999;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #006666;
+}
+
+/* Footer */
+footer {
+    background-color: #009999;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
